@@ -24,8 +24,7 @@ export class Tab2Page {
   async Alert2() {
     const alert = await this.alertController.create({
       header: 'Institutional Values',
-      // subHeader: 'Confirm',
-      message: '1. Integrity – Integrity is defined as the quality of being honest and having strong moral principles.',
+      message: '1. Integrity – Integrity is defined as the quality of being honest and having strong moral principles. 2. Excellence – Excellence is the hallmark of consistency. 3. Social Sensitivity – The prime goal of an educational institution like Sardar Patel Institute of Technology, under the aegis of management like Bharatiya Vidya Bhavan, strives to make the society better in all respects by providing quality education.',
       buttons: ['OK']
     });
 
@@ -35,7 +34,6 @@ export class Tab2Page {
   async Alert3() {
     const alert = await this.alertController.create({
       header: 'Vision',
-      // subHeader: 'Confirm',
       message: 'To build a renowned institute which will produce graduate engineers with global competency and social sensitivity.',
       buttons: ['OK']
     });
@@ -46,8 +44,6 @@ export class Tab2Page {
   async Alert4() {
     const alert = await this.alertController.create({
       header: 'Founders Message',
-      // subHeader: 'Confirm',
-      
       message: '“Education would fail ignominiously in its objective if it manufactures only a robot and called him an economic man stressing the adjective economic and forgetting the substantive man. A university cannot afford to ignore the cultural aspects of education whatever studies it specilizes in. Science is a means, not an end. Even though you may ultimately become a scientist, a doctor, or an engineer, you must while in college, absorb fundamental values which will make you a man of culture. An engineer has not merely to build bridges; he has to be a devoted husband, a kind father, a friendly neighbour, a dutiful citizen, and a man true to himself."',
       buttons: ['OK']
     });
