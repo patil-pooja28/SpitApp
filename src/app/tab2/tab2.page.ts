@@ -47,6 +47,7 @@ export class Tab2Page {
     const alert = await this.alertController.create({
       header: 'Founders Message',
       // subHeader: 'Confirm',
+      
       message: '“Education would fail ignominiously in its objective if it manufactures only a robot and called him an economic man stressing the adjective economic and forgetting the substantive man. A university cannot afford to ignore the cultural aspects of education whatever studies it specilizes in. Science is a means, not an end. Even though you may ultimately become a scientist, a doctor, or an engineer, you must while in college, absorb fundamental values which will make you a man of culture. An engineer has not merely to build bridges; he has to be a devoted husband, a kind father, a friendly neighbour, a dutiful citizen, and a man true to himself."',
       buttons: ['OK']
     });
