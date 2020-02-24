@@ -52,6 +52,8 @@ export class Tab2Page {
       buttons: ['OK']
     });
 
+
+    
     await alert.present();
   }
 }
