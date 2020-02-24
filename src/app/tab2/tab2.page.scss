@@ -1,1 +1,14 @@
+.test {
+    font: 100% Helvetica, sans-serif;
+    color: maroon;
+    --background: rgba(0, 0, 0, 0);
+    --border-color: black;
+}
 
+.button {
+    --background-hover: rgb(233, 233, 233);
+}
+
+.button:hover {
+    --background-hover: rgb(233, 233, 233);
+}
