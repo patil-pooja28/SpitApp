@@ -5,6 +5,18 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { Tab1Page } from './tab1.page';
 
+// const routes: Routes = [
+//   {
+//     path: 'menu',
+//     children: [
+//       {
+//         path: 'feedback',
+//     loadChildren: '../feedback/feedback.module'
+//       }
+//     ]
+//   }
+// ];
+
 @NgModule({
   imports: [
     IonicModule,

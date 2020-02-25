@@ -1,0 +1,71 @@
+<ion-header>
+
+  <ion-toolbar>
+      <ion-back-button defaultRoute="" slot="start"></ion-back-button>
+      <ion-title>feedback</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div>
+      <ion-item>
+          <ion-label position="floating">Name:</ion-label>
+          <ion-input type="text"></ion-input>
+      </ion-item>
+
+      <ion-item>
+          <ion-label>Class:</ion-label>
+          <ion-select placeholder="Select One">
+              <ion-select-option value="">FY MCA</ion-select-option>
+              <ion-select-option value="">SY MCA</ion-select-option>
+              <ion-select-option value="">TY MCA</ion-select-option>
+          </ion-select>
+      </ion-item>
+
+      <ion-item>
+          <ion-label position="floating">Roll no:</ion-label>
+          <ion-input type="text"></ion-input>
+      </ion-item>
+
+      <ion-item>
+          <ion-label>Do you want the notification for submission?<ion-toggle color="primary"></ion-toggle>
+          </ion-label>
+      </ion-item>
+
+      <ion-item>
+          <ion-label position="floating">Mark the feature you found in the app :</ion-label>
+      </ion-item>
+      
+      <ion-item>
+        <ion-checkbox color="primary" slot="start"></ion-checkbox>
+        <ion-label>Aesthetically Pleasing</ion-label>
+      </ion-item>
+      
+      <ion-item>
+        <ion-checkbox color="primary" slot="start"></ion-checkbox>
+        <ion-label>Simplicity</ion-label>
+      </ion-item>
+      
+      <ion-item>
+        <ion-checkbox color="primary" slot="start"></ion-checkbox>
+        <ion-label>Transparency</ion-label>
+      </ion-item>
+      
+      <ion-item> 
+        <ion-checkbox color="primary" slot="start"></ion-checkbox>
+        <ion-label>Immersion</ion-label>
+      </ion-item>
+      
+      <ion-item>
+        <ion-checkbox color="primary" slot="start"></ion-checkbox>
+        <ion-label>Positive First Impression</ion-label>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">Feedback :</ion-label>
+        <ion-textarea></ion-textarea><br>
+      </ion-item>
+      <ion-button color="primary" (click)="presentToast()" expand="block">Submit</ion-button>
+      <br>
+  </div>
+</ion-content>

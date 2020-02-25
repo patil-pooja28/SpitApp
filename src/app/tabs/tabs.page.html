@@ -1,3 +1,18 @@
+<ion-menu side="start" menuId="first" ContentId="menuContent">
+    <ion-header>
+        <ion-toolbar color="primary">
+            <ion-title>Left Menu</ion-title>
+        </ion-toolbar>
+    </ion-header>
+    <ion-content>
+        <ion-list>
+            <ion-item routerLink='/feedback'>FeedBack</ion-item>
+        </ion-list>
+    </ion-content>
+</ion-menu>
+
+<ion-content id="menuContent">
+    <!-- <ion-router-outlet id="menuContent"></ion-router-outlet> -->
 <ion-tabs>
 
     <ion-tab-bar slot="bottom">
@@ -18,3 +33,4 @@
     </ion-tab-bar>
 
 </ion-tabs>
+</ion-content>
